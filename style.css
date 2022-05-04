@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #575F7D;
+}
+img {
+  width: 120px;
+  border-radius: 25%;
+  box-shadow: 100px ;
+}
+
+#follow {
+  color: #E5C2EC;
+}
+
+.btn-blue {
+  font-family: 'Inter', serif;
+  text-decoration: none;
+  color: #575F7D;
+  background-color: #D9C2EC;
+  margin: 80px 10px;
+  padding: 12px 35px;
+  height: 46px;
+  border-radius: 10px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: black;
+}
+
+p {
+  color: #575F7D;
+
+}
+
+.container {
+  width: 900px;
+  margin: 40px auto ;
+}
+
+.card {
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+}
+
+.btn-follow {
+  font-size: 50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.fab {
+  color: #EFC1EB;
+  padding-right: 40px;
+}
+
+.fab:hover {
+  color: black;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 100%;
+  }
+}
